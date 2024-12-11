@@ -5,7 +5,7 @@ let submitBtn = document.getElementById("btn");
 
 submitBtn.addEventListener('click', ()=>{
 	if(nameInp.value==='' || ageInp.value===''){
-		alert('Both fields are required')
+		alert('Please enter valid details')
 		return
 	}
 
